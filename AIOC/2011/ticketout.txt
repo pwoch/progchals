@@ -1,0 +1,17 @@
+day: 16 costs: 4
+day: 15 costs: 4
+day: 14 costs: 4
+day: 13 costs: 7
+day: 12 costs: 7
+day: 11 costs: 7
+day: 10 costs: 7
+day: 9 costs: 7
+day: 8 costs: 11
+day: 7 costs: 11
+day: 6 costs: 11
+day: 5 costs: 11
+day: 4 costs: 14
+day: 3 costs: 14
+day: 2 costs: 15
+day: 1 costs: 18
+18

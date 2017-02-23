@@ -1,0 +1,42 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MAX 10010
+
+typedef struct node *Node;
+
+struct node{
+    int v;
+    Node l;
+};
+
+typedef struct _list{
+    Node end;
+    int size;
+}*List;
+
+
+void append(List a, Node n) {
+    if (a->end != NULL) {
+        (a->end)->l = n;
+    }
+    a->end = n;
+    a->size++;
+    return;
+}
+
+List a[MAX];
+Node b[MAX];
+
+int main() {
+    int N;
+    scanf("%d",&N);
+    int i;
+    for (i = 2; i <= N; i++) {
+        canf("%d ",&tmp);
+    }
+
+
+    return 0;
+}

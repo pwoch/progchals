@@ -1,0 +1,13 @@
+
+
+from sys import stdin 
+
+n = input()
+for i in xrange(int(n)):
+    l = list(map(int,stdin.readline().split()))
+    i = 0
+    for n in l:
+        b.insert(n,i)
+    print l
+    l = list(map(float,stdin.readline().split()))
+    print l
