@@ -51,7 +51,7 @@ int solution(int N) {
             break;
     }
 
-    //:wq Base Case: If we've paired all the wormholes print them out,
+    // Base Case: If we've paired all the wormholes print them out,
     // return 1 if the pairing results in a loop
     if( i > N) {
         if( loopExists(N) ) return 1;
