@@ -1,0 +1,83 @@
+
+
+import java.util.Arrays;
+import java.lang.Object;
+import java.io.*;
+
+import java.util.Scanner;
+class watchmen {
+
+public static void main(String[] args){
+    
+    
+    Scanner input = new Scanner(System.in);
+    int max = input.nextInt();
+    
+    int[] xPos = new int[max];
+    int[] yPos = new int[max];
+
+    for(int i = 0; i < max && input.hasNext() ; i++){
+    
+    	xPos[i] = input.nextInt();
+    	yPos[i] = input.nextInt();
+    }
+    
+    
+    int[] sortX = Arrays.sort(xPos);
+    int[] sortY = Arrays.sort(yPos);
+    
+    System.out.println("Check " + Arrays.toString(xSort));
+    System.out.println("Check " + Arrays.toString(ySort));
+    
+  
+    
+    int counter = 0;
+    int pairs = 0;
+    
+    for(int i = 0; i < max - 1; i++){
+    	
+    	
+    	if( xSort[i] == xSort[i+1]){
+    	    
+    	    counter++;
+    	    
+    	} else {
+    	    
+    	    pairs += (counter > 1) ? (counter)*(counter-1)/2 : 1;
+    	    
+            if(counter == 0)
+                pairs = 0;
+            else {
+                  
+                counter = 0;
+            }
+       }
+    }
+    
+    pairs = 0;
+    for(int i = 0; i < max - 1; i++){
+    	
+    	
+    	if( ySort[i] == ySort[i+1]){
+    	    
+    	    counter++;
+    	} else {
+    	    
+    	    pairs += (counter > 1) ? (counter)*(counter-1)/2 : 1;
+    	    
+            if(counter == 0)
+                pairs = 0;
+            else{
+                counter = 0;
+            }
+       }
+    }
+    
+     for(int i = 0; i < max; i++){
+        
+        if( copy[i] != 0){
+            
+    
+    System.out.println("Number of y-pairs: " + pairs);
+    }
+}

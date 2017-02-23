@@ -1,0 +1,58 @@
+
+
+
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#include <algorithm>
+
+int main() {
+
+    int n;
+    cin>> n;
+    int set[100000] = {0};
+    int homo = 0;
+    int size = 0;
+    int noHomo = 0;
+    int hetero = 0;
+    char str[10];
+    for( int i = 0; i< n; i++) {
+        cin>> str;
+        cin>> tmp;
+        if( strcmp(str,"insert")){
+            set[tmp]++;
+            size++;
+            //if you have more than one occurrence the set is now homogeneous
+            if( set[tmp] != 1) { 
+                noHomo++;
+                homo = 1;
+            }
+            //if size > set[tmp] then there are other numbers and the set is hetero 
+            if( set[tmp] - size != 0) {
+                hetero = 1;
+            }
+        } else {
+            set[tmp]--;
+            if( set[tmp] == 1) {
+                noHomo--;
+                if( noHomo == 0) {
+                    homo = 0;
+                }
+            }
+            if( set[tmp] == 0) {
+            
+            }
+                
+        }
+    }
+    if( homo && hetero) {
+        printf("Both");
+    } else if (homo) {
+        printf("homo");
+    } else if( hetero) {
+        printf("hetero");
+    } else {
+        printf("neither");
+    }
+    return 0;
+}

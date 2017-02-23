@@ -1,0 +1,89 @@
+#include <iostream>
+#include <cstdio>
+#include <queue>
+#include <vector>
+
+using namespace std;
+
+int search(int a,int b);
+bool g[26][26];
+int P, M;
+void precompute();
+void printTab();
+
+int main() {
+	char S[1010];
+	char T[1010];
+	cin>> P;
+	int i, t;
+	int v1, v2;
+	int result;
+
+	for( t = 0; t < P; t++) {
+
+		scanf("%s %s", S, T);
+		scanf("%d", &M);
+		for( int m = 0; m < M; m++){
+			char c1, c2;
+			scanf(" %c->%c",&c1, &c2);
+			v1 = c1 - 'a';
+			v2 = c2 - 'a';
+			g[v1][v2] = true;
+		}
+		
+		precompute();
+		result = 1;
+		for( i = 0; S[i] != '\0'; i++) {
+			if( g[S[i]-'a'][T[i]-'a'] == false) {
+				result = 0;
+				printf("NO\n");
+				break;
+			}
+		}
+		if( result != 0) {
+			printf("YES\n");
+		}
+	}	
+	return 0;
+}
+void precompute() {
+	queue<int> q;
+	vector<bool> v(26,0);
+	for( int i = 0; i < 26; i++) {
+printf("Startig %c\n", i+'a');
+		fill(v.begin(), v.end(), 0);
+		q.push(i);
+		while(!q.empty()) {
+			int c = q.front();
+			q.pop();
+			for(int j = 0; j < 26; j++){
+				if( v[j] || (g[c][j] == 0)) continue;
+				printf("Adding %c\n",j+'a');
+				q.push(g[c][j]);
+				v[j] = 1;
+			}
+		}
+		printf("%c: ",i+'a');
+		for(int j = 0; j < 26; j++){
+			if( v[j]) {
+				g[i][j] = 1;
+			}
+			printf("%d ", g[i][j]);
+		}
+		printf("\n");
+	}
+}
+
+void printTab() {
+	for( int i = 0; i < 26; i++){
+		printf(" %c",i+'a');
+	}
+	printf("\n");
+	for( int i = 0; i < 26; i++){
+		printf("%c:",i+'a');
+		for( int j = 0; j < 26; j++){
+			printf("%d ", g[i][j]);
+		}
+		printf("\n");
+	}
+}

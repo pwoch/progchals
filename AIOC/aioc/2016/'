@@ -1,0 +1,41 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MAX 100000
+
+int main() {
+	//l,r are which boundary
+	//lP,rP are how big current patch is
+	int l,r,lP,rP;
+	int f[MAX];
+	FILE* inf = fopen("farmin.txt","r");
+	FILE* outf = fopen("farmout.txt","w");
+	fscanf(inf,"%d",&N);
+	for( i = 0; i < N; i++) {
+		fscanf(inf,"%d",&farm[i]);
+	}
+	l = 0;
+	int sizeL = 0;
+	r = N-1;
+	int sizeR = 0;
+	int count = 0;
+	while( l < r) {
+		sizeL = farm[l++];
+		sizeR = farm[r--];
+		while( sizeL != sizeR) {
+			if( sizeL < sizeR) 
+				sizeL += farm[l++];
+			else 
+				sizeR += farm[r--];
+		}
+		if( sizeR) {
+			count++;
+		}
+	}
+	fprintf(outf,"%d\n", count);
+	return 0;
+}
+
+
+

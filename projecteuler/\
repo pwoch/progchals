@@ -1,0 +1,64 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void printExpansion(int a[], int b, int c);
+
+
+int main() {
+
+    int a[1040000] = {0};
+    int start, i, k;
+    a[0] = 1;
+    k = 1; 
+
+    start = 0;
+    while( k < 1000) {
+
+        i = start;
+        while( i >= 0) {
+
+            if( a[i] < 5 ){
+                a[i] = a[i]*2;
+
+            } else if(start < 299) {
+                a[i+1] = a[i+1] + 1;
+                a[i] = (a[i]*2) % 10;
+
+                if( i == start) {
+                    start++;
+
+                    //printf("The largest index is %d with value %d\n", start, a[start]);
+                }
+            } else {
+                printf("Array size exceeded\n");
+                return EXIT_FAILURE; 
+            }
+            i--;
+        }
+        printExpansion(a, k, start);
+        k++;
+    }
+
+    return EXIT_SUCCESS;
+}
+
+void printExpansion(int a[], int pow, int start) {
+
+    printf("The decimal expansion for 2 to the %d is\n", pow);
+    printf("[");
+    int i, sum;
+    sum = 0;
+    i = start;
+    while( i >= 0) {
+
+        printf(" %d", a[i]);
+        sum = sum + a[i];
+        i--;
+    }
+    printf("]\n");
+    printf("The sum of the digits is: %d\n", sum);
+    printf("Array size: %d", start);
+
+} 
+

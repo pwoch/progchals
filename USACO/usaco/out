@@ -1,0 +1,1396 @@
+Start with 0
+Increment by 1
+Checking 0 + 1*1 = 1
+Checking 0 + 2*1 = 2
+Checking 0 + 3*1 = 3
+Failed
+Checking 0 + 1*2 = 2
+Checking 0 + 2*2 = 4
+Checking 0 + 3*2 = 6
+Failed
+Checking 0 + 1*3 = 3
+Failed
+Checking 0 + 1*4 = 4
+Checking 0 + 2*4 = 8
+Checking 0 + 3*4 = 12
+Failed
+Checking 0 + 1*5 = 5
+Checking 0 + 2*5 = 10
+Checking 0 + 3*5 = 15
+Failed
+Checking 0 + 1*6 = 6
+Failed
+Checking 0 + 1*7 = 7
+Failed
+Checking 0 + 1*8 = 8
+Checking 0 + 2*8 = 16
+Checking 0 + 3*8 = 24
+Failed
+Checking 0 + 1*9 = 9
+Checking 0 + 2*9 = 18
+Checking 0 + 3*9 = 27
+Failed
+Checking 0 + 1*10 = 10
+Checking 0 + 2*10 = 20
+Checking 0 + 3*10 = 30
+Failed
+Checking 0 + 1*11 = 11
+Failed
+Checking 0 + 1*12 = 12
+Failed
+Checking 0 + 1*13 = 13
+Checking 0 + 2*13 = 26
+Checking 0 + 3*13 = 39
+Failed
+Checking 0 + 1*14 = 14
+Failed
+Checking 0 + 1*15 = 15
+Failed
+Checking 0 + 1*16 = 16
+Checking 0 + 2*16 = 32
+Checking 0 + 3*16 = 48
+Failed
+Checking 0 + 1*17 = 17
+Checking 0 + 2*17 = 34
+Checking 0 + 3*17 = 51
+Failed
+Checking 0 + 1*18 = 18
+Checking 0 + 2*18 = 36
+Checking 0 + 3*18 = 54
+Failed
+Checking 0 + 1*19 = 19
+Failed
+Start with 1
+Increment by 1
+Checking 1 + 1*1 = 2
+Checking 1 + 2*1 = 3
+Failed
+Checking 1 + 1*2 = 3
+Failed
+Checking 1 + 1*3 = 4
+Checking 1 + 2*3 = 7
+Failed
+Checking 1 + 1*4 = 5
+Checking 1 + 2*4 = 9
+Checking 1 + 3*4 = 13
+Checking 1 + 4*4 = 17
+Success
+1   4
+Checking 1 + 1*5 = 6
+Failed
+Checking 1 + 1*6 = 7
+Failed
+Checking 1 + 1*7 = 8
+Checking 1 + 2*7 = 15
+Failed
+Checking 1 + 1*8 = 9
+Checking 1 + 2*8 = 17
+Checking 1 + 3*8 = 25
+Checking 1 + 4*8 = 33
+Failed
+Checking 1 + 1*9 = 10
+Checking 1 + 2*9 = 19
+Failed
+Checking 1 + 1*10 = 11
+Failed
+Checking 1 + 1*11 = 12
+Failed
+Checking 1 + 1*12 = 13
+Checking 1 + 2*12 = 25
+Checking 1 + 3*12 = 37
+Checking 1 + 4*12 = 49
+Failed
+Checking 1 + 1*13 = 14
+Failed
+Checking 1 + 1*14 = 15
+Failed
+Checking 1 + 1*15 = 16
+Checking 1 + 2*15 = 31
+Failed
+Checking 1 + 1*16 = 17
+Checking 1 + 2*16 = 33
+Failed
+Checking 1 + 1*17 = 18
+Checking 1 + 2*17 = 35
+Failed
+Checking 1 + 1*18 = 19
+Failed
+Checking 1 + 1*19 = 20
+Checking 1 + 2*19 = 39
+Failed
+Start with 2
+Increment by 1
+Checking 2 + 1*1 = 3
+Failed
+Checking 2 + 1*2 = 4
+Checking 2 + 2*2 = 6
+Failed
+Checking 2 + 1*3 = 5
+Checking 2 + 2*3 = 8
+Checking 2 + 3*3 = 11
+Failed
+Checking 2 + 1*4 = 6
+Failed
+Checking 2 + 1*5 = 7
+Failed
+Checking 2 + 1*6 = 8
+Checking 2 + 2*6 = 14
+Failed
+Checking 2 + 1*7 = 9
+Checking 2 + 2*7 = 16
+Checking 2 + 3*7 = 23
+Failed
+Checking 2 + 1*8 = 10
+Checking 2 + 2*8 = 18
+Checking 2 + 3*8 = 26
+Checking 2 + 4*8 = 34
+Success
+2   8
+Checking 2 + 1*9 = 11
+Failed
+Checking 2 + 1*10 = 12
+Failed
+Checking 2 + 1*11 = 13
+Checking 2 + 2*11 = 24
+Failed
+Checking 2 + 1*12 = 14
+Failed
+Checking 2 + 1*13 = 15
+Failed
+Checking 2 + 1*14 = 16
+Checking 2 + 2*14 = 30
+Failed
+Checking 2 + 1*15 = 17
+Checking 2 + 2*15 = 32
+Checking 2 + 3*15 = 47
+Failed
+Checking 2 + 1*16 = 18
+Checking 2 + 2*16 = 34
+Checking 2 + 3*16 = 50
+Checking 2 + 4*16 = 66
+Failed
+Checking 2 + 1*17 = 19
+Failed
+Checking 2 + 1*18 = 20
+Checking 2 + 2*18 = 38
+Failed
+Checking 2 + 1*19 = 21
+Failed
+Start with 3
+Start with 4
+Increment by 1
+Checking 4 + 1*1 = 5
+Checking 4 + 2*1 = 6
+Failed
+Checking 4 + 1*2 = 6
+Failed
+Checking 4 + 1*3 = 7
+Failed
+Checking 4 + 1*4 = 8
+Checking 4 + 2*4 = 12
+Failed
+Checking 4 + 1*5 = 9
+Checking 4 + 2*5 = 14
+Failed
+Checking 4 + 1*6 = 10
+Checking 4 + 2*6 = 16
+Checking 4 + 3*6 = 22
+Failed
+Checking 4 + 1*7 = 11
+Failed
+Checking 4 + 1*8 = 12
+Failed
+Checking 4 + 1*9 = 13
+Checking 4 + 2*9 = 22
+Failed
+Checking 4 + 1*10 = 14
+Failed
+Checking 4 + 1*11 = 15
+Failed
+Checking 4 + 1*12 = 16
+Checking 4 + 2*12 = 28
+Failed
+Checking 4 + 1*13 = 17
+Checking 4 + 2*13 = 30
+Failed
+Checking 4 + 1*14 = 18
+Checking 4 + 2*14 = 32
+Checking 4 + 3*14 = 46
+Failed
+Checking 4 + 1*15 = 19
+Failed
+Checking 4 + 1*16 = 20
+Checking 4 + 2*16 = 36
+Checking 4 + 3*16 = 52
+Checking 4 + 4*16 = 68
+Failed
+Checking 4 + 1*17 = 21
+Failed
+Checking 4 + 1*18 = 22
+Failed
+Checking 4 + 1*19 = 23
+Failed
+Start with 5
+Increment by 1
+Checking 5 + 1*1 = 6
+Failed
+Checking 5 + 1*2 = 7
+Failed
+Checking 5 + 1*3 = 8
+Checking 5 + 2*3 = 11
+Failed
+Checking 5 + 1*4 = 9
+Checking 5 + 2*4 = 13
+Checking 5 + 3*4 = 17
+Checking 5 + 4*4 = 21
+Failed
+Checking 5 + 1*5 = 10
+Checking 5 + 2*5 = 15
+Failed
+Checking 5 + 1*6 = 11
+Failed
+Checking 5 + 1*7 = 12
+Failed
+Checking 5 + 1*8 = 13
+Checking 5 + 2*8 = 21
+Failed
+Checking 5 + 1*9 = 14
+Failed
+Checking 5 + 1*10 = 15
+Failed
+Checking 5 + 1*11 = 16
+Checking 5 + 2*11 = 27
+Failed
+Checking 5 + 1*12 = 17
+Checking 5 + 2*12 = 29
+Checking 5 + 3*12 = 41
+Checking 5 + 4*12 = 53
+Failed
+Checking 5 + 1*13 = 18
+Checking 5 + 2*13 = 31
+Failed
+Checking 5 + 1*14 = 19
+Failed
+Checking 5 + 1*15 = 20
+Checking 5 + 2*15 = 35
+Failed
+Checking 5 + 1*16 = 21
+Failed
+Checking 5 + 1*17 = 22
+Failed
+Checking 5 + 1*18 = 23
+Failed
+Checking 5 + 1*19 = 24
+Failed
+Start with 6
+Start with 7
+Start with 8
+Increment by 1
+Checking 8 + 1*1 = 9
+Checking 8 + 2*1 = 10
+Checking 8 + 3*1 = 11
+Failed
+Checking 8 + 1*2 = 10
+Checking 8 + 2*2 = 12
+Failed
+Checking 8 + 1*3 = 11
+Failed
+Checking 8 + 1*4 = 12
+Failed
+Checking 8 + 1*5 = 13
+Checking 8 + 2*5 = 18
+Checking 8 + 3*5 = 23
+Failed
+Checking 8 + 1*6 = 14
+Failed
+Checking 8 + 1*7 = 15
+Failed
+Checking 8 + 1*8 = 16
+Checking 8 + 2*8 = 24
+Failed
+Checking 8 + 1*9 = 17
+Checking 8 + 2*9 = 26
+Checking 8 + 3*9 = 35
+Failed
+Checking 8 + 1*10 = 18
+Checking 8 + 2*10 = 28
+Failed
+Checking 8 + 1*11 = 19
+Failed
+Checking 8 + 1*12 = 20
+Checking 8 + 2*12 = 32
+Checking 8 + 3*12 = 44
+Failed
+Checking 8 + 1*13 = 21
+Failed
+Checking 8 + 1*14 = 22
+Failed
+Checking 8 + 1*15 = 23
+Failed
+Checking 8 + 1*16 = 24
+Failed
+Checking 8 + 1*17 = 25
+Checking 8 + 2*17 = 42
+Failed
+Checking 8 + 1*18 = 26
+Checking 8 + 2*18 = 44
+Failed
+Checking 8 + 1*19 = 27
+Failed
+Start with 9
+Increment by 1
+Checking 9 + 1*1 = 10
+Checking 9 + 2*1 = 11
+Failed
+Checking 9 + 1*2 = 11
+Failed
+Checking 9 + 1*3 = 12
+Failed
+Checking 9 + 1*4 = 13
+Checking 9 + 2*4 = 17
+Checking 9 + 3*4 = 21
+Failed
+Checking 9 + 1*5 = 14
+Failed
+Checking 9 + 1*6 = 15
+Failed
+Checking 9 + 1*7 = 16
+Checking 9 + 2*7 = 23
+Failed
+Checking 9 + 1*8 = 17
+Checking 9 + 2*8 = 25
+Checking 9 + 3*8 = 33
+Failed
+Checking 9 + 1*9 = 18
+Checking 9 + 2*9 = 27
+Failed
+Checking 9 + 1*10 = 19
+Failed
+Checking 9 + 1*11 = 20
+Checking 9 + 2*11 = 31
+Failed
+Checking 9 + 1*12 = 21
+Failed
+Checking 9 + 1*13 = 22
+Failed
+Checking 9 + 1*14 = 23
+Failed
+Checking 9 + 1*15 = 24
+Failed
+Checking 9 + 1*16 = 25
+Checking 9 + 2*16 = 41
+Checking 9 + 3*16 = 57
+Failed
+Checking 9 + 1*17 = 26
+Checking 9 + 2*17 = 43
+Failed
+Checking 9 + 1*18 = 27
+Failed
+Checking 9 + 1*19 = 28
+Failed
+Start with 10
+Increment by 1
+Checking 10 + 1*1 = 11
+Failed
+Checking 10 + 1*2 = 12
+Failed
+Checking 10 + 1*3 = 13
+Checking 10 + 2*3 = 16
+Checking 10 + 3*3 = 19
+Failed
+Checking 10 + 1*4 = 14
+Failed
+Checking 10 + 1*5 = 15
+Failed
+Checking 10 + 1*6 = 16
+Checking 10 + 2*6 = 22
+Failed
+Checking 10 + 1*7 = 17
+Checking 10 + 2*7 = 24
+Failed
+Checking 10 + 1*8 = 18
+Checking 10 + 2*8 = 26
+Checking 10 + 3*8 = 34
+Checking 10 + 4*8 = 42
+Failed
+Checking 10 + 1*9 = 19
+Failed
+Checking 10 + 1*10 = 20
+Checking 10 + 2*10 = 30
+Failed
+Checking 10 + 1*11 = 21
+Failed
+Checking 10 + 1*12 = 22
+Failed
+Checking 10 + 1*13 = 23
+Failed
+Checking 10 + 1*14 = 24
+Failed
+Checking 10 + 1*15 = 25
+Checking 10 + 2*15 = 40
+Checking 10 + 3*15 = 55
+Failed
+Checking 10 + 1*16 = 26
+Checking 10 + 2*16 = 42
+Failed
+Checking 10 + 1*17 = 27
+Failed
+Checking 10 + 1*18 = 28
+Failed
+Checking 10 + 1*19 = 29
+Checking 10 + 2*19 = 48
+Failed
+Start with 11
+Start with 12
+Start with 13
+Increment by 1
+Checking 13 + 1*1 = 14
+Failed
+Checking 13 + 1*2 = 15
+Failed
+Checking 13 + 1*3 = 16
+Checking 13 + 2*3 = 19
+Failed
+Checking 13 + 1*4 = 17
+Checking 13 + 2*4 = 21
+Failed
+Checking 13 + 1*5 = 18
+Checking 13 + 2*5 = 23
+Failed
+Checking 13 + 1*6 = 19
+Failed
+Checking 13 + 1*7 = 20
+Checking 13 + 2*7 = 27
+Failed
+Checking 13 + 1*8 = 21
+Failed
+Checking 13 + 1*9 = 22
+Failed
+Checking 13 + 1*10 = 23
+Failed
+Checking 13 + 1*11 = 24
+Failed
+Checking 13 + 1*12 = 25
+Checking 13 + 2*12 = 37
+Checking 13 + 3*12 = 49
+Failed
+Checking 13 + 1*13 = 26
+Checking 13 + 2*13 = 39
+Failed
+Checking 13 + 1*14 = 27
+Failed
+Checking 13 + 1*15 = 28
+Failed
+Checking 13 + 1*16 = 29
+Checking 13 + 2*16 = 45
+Checking 13 + 3*16 = 61
+Checking 13 + 4*16 = 77
+Failed
+Checking 13 + 1*17 = 30
+Failed
+Checking 13 + 1*18 = 31
+Failed
+Checking 13 + 1*19 = 32
+Checking 13 + 2*19 = 51
+Failed
+Start with 14
+Start with 15
+Start with 16
+Increment by 1
+Checking 16 + 1*1 = 17
+Checking 16 + 2*1 = 18
+Checking 16 + 3*1 = 19
+Failed
+Checking 16 + 1*2 = 18
+Checking 16 + 2*2 = 20
+Checking 16 + 3*2 = 22
+Failed
+Checking 16 + 1*3 = 19
+Failed
+Checking 16 + 1*4 = 20
+Checking 16 + 2*4 = 24
+Failed
+Checking 16 + 1*5 = 21
+Failed
+Checking 16 + 1*6 = 22
+Failed
+Checking 16 + 1*7 = 23
+Failed
+Checking 16 + 1*8 = 24
+Failed
+Checking 16 + 1*9 = 25
+Checking 16 + 2*9 = 34
+Checking 16 + 3*9 = 43
+Failed
+Checking 16 + 1*10 = 26
+Checking 16 + 2*10 = 36
+Checking 16 + 3*10 = 46
+Failed
+Checking 16 + 1*11 = 27
+Failed
+Checking 16 + 1*12 = 28
+Failed
+Checking 16 + 1*13 = 29
+Checking 16 + 2*13 = 42
+Failed
+Checking 16 + 1*14 = 30
+Failed
+Checking 16 + 1*15 = 31
+Failed
+Checking 16 + 1*16 = 32
+Checking 16 + 2*16 = 48
+Failed
+Checking 16 + 1*17 = 33
+Failed
+Checking 16 + 1*18 = 34
+Checking 16 + 2*18 = 52
+Checking 16 + 3*18 = 70
+Failed
+Checking 16 + 1*19 = 35
+Failed
+Start with 17
+Increment by 1
+Checking 17 + 1*1 = 18
+Checking 17 + 2*1 = 19
+Failed
+Checking 17 + 1*2 = 19
+Failed
+Checking 17 + 1*3 = 20
+Checking 17 + 2*3 = 23
+Failed
+Checking 17 + 1*4 = 21
+Failed
+Checking 17 + 1*5 = 22
+Failed
+Checking 17 + 1*6 = 23
+Failed
+Checking 17 + 1*7 = 24
+Failed
+Checking 17 + 1*8 = 25
+Checking 17 + 2*8 = 33
+Failed
+Checking 17 + 1*9 = 26
+Checking 17 + 2*9 = 35
+Failed
+Checking 17 + 1*10 = 27
+Failed
+Checking 17 + 1*11 = 28
+Failed
+Checking 17 + 1*12 = 29
+Checking 17 + 2*12 = 41
+Checking 17 + 3*12 = 53
+Failed
+Checking 17 + 1*13 = 30
+Failed
+Checking 17 + 1*14 = 31
+Failed
+Checking 17 + 1*15 = 32
+Checking 17 + 2*15 = 47
+Failed
+Checking 17 + 1*16 = 33
+Failed
+Checking 17 + 1*17 = 34
+Checking 17 + 2*17 = 51
+Failed
+Checking 17 + 1*18 = 35
+Failed
+Checking 17 + 1*19 = 36
+Checking 17 + 2*19 = 55
+Failed
+Start with 18
+Increment by 1
+Checking 18 + 1*1 = 19
+Failed
+Checking 18 + 1*2 = 20
+Checking 18 + 2*2 = 22
+Failed
+Checking 18 + 1*3 = 21
+Failed
+Checking 18 + 1*4 = 22
+Failed
+Checking 18 + 1*5 = 23
+Failed
+Checking 18 + 1*6 = 24
+Failed
+Checking 18 + 1*7 = 25
+Checking 18 + 2*7 = 32
+Checking 18 + 3*7 = 39
+Failed
+Checking 18 + 1*8 = 26
+Checking 18 + 2*8 = 34
+Checking 18 + 3*8 = 42
+Failed
+Checking 18 + 1*9 = 27
+Failed
+Checking 18 + 1*10 = 28
+Failed
+Checking 18 + 1*11 = 29
+Checking 18 + 2*11 = 40
+Checking 18 + 3*11 = 51
+Failed
+Checking 18 + 1*12 = 30
+Failed
+Checking 18 + 1*13 = 31
+Failed
+Checking 18 + 1*14 = 32
+Checking 18 + 2*14 = 46
+Failed
+Checking 18 + 1*15 = 33
+Failed
+Checking 18 + 1*16 = 34
+Checking 18 + 2*16 = 50
+Checking 18 + 3*16 = 66
+Failed
+Checking 18 + 1*17 = 35
+Failed
+Checking 18 + 1*18 = 36
+Checking 18 + 2*18 = 54
+Failed
+Checking 18 + 1*19 = 37
+Checking 18 + 2*19 = 56
+Failed
+Start with 19
+Start with 20
+Increment by 1
+Checking 20 + 1*1 = 21
+Failed
+Checking 20 + 1*2 = 22
+Failed
+Checking 20 + 1*3 = 23
+Failed
+Checking 20 + 1*4 = 24
+Failed
+Checking 20 + 1*5 = 25
+Checking 20 + 2*5 = 30
+Failed
+Checking 20 + 1*6 = 26
+Checking 20 + 2*6 = 32
+Checking 20 + 3*6 = 38
+Failed
+Checking 20 + 1*7 = 27
+Failed
+Checking 20 + 1*8 = 28
+Failed
+Checking 20 + 1*9 = 29
+Checking 20 + 2*9 = 38
+Failed
+Checking 20 + 1*10 = 30
+Failed
+Checking 20 + 1*11 = 31
+Failed
+Checking 20 + 1*12 = 32
+Checking 20 + 2*12 = 44
+Failed
+Checking 20 + 1*13 = 33
+Failed
+Checking 20 + 1*14 = 34
+Checking 20 + 2*14 = 48
+Failed
+Checking 20 + 1*15 = 35
+Failed
+Checking 20 + 1*16 = 36
+Checking 20 + 2*16 = 52
+Checking 20 + 3*16 = 68
+Failed
+Checking 20 + 1*17 = 37
+Checking 20 + 2*17 = 54
+Failed
+Checking 20 + 1*18 = 38
+Failed
+Checking 20 + 1*19 = 39
+Failed
+Start with 21
+Start with 22
+Start with 23
+Start with 24
+Start with 25
+Increment by 1
+Checking 25 + 1*1 = 26
+Checking 25 + 2*1 = 27
+Failed
+Checking 25 + 1*2 = 27
+Failed
+Checking 25 + 1*3 = 28
+Failed
+Checking 25 + 1*4 = 29
+Checking 25 + 2*4 = 33
+Failed
+Checking 25 + 1*5 = 30
+Failed
+Checking 25 + 1*6 = 31
+Failed
+Checking 25 + 1*7 = 32
+Checking 25 + 2*7 = 39
+Failed
+Checking 25 + 1*8 = 33
+Failed
+Checking 25 + 1*9 = 34
+Checking 25 + 2*9 = 43
+Failed
+Checking 25 + 1*10 = 35
+Failed
+Checking 25 + 1*11 = 36
+Checking 25 + 2*11 = 47
+Failed
+Checking 25 + 1*12 = 37
+Checking 25 + 2*12 = 49
+Failed
+Checking 25 + 1*13 = 38
+Failed
+Checking 25 + 1*14 = 39
+Failed
+Checking 25 + 1*15 = 40
+Checking 25 + 2*15 = 55
+Failed
+Checking 25 + 1*16 = 41
+Checking 25 + 2*16 = 57
+Failed
+Checking 25 + 1*17 = 42
+Failed
+Checking 25 + 1*18 = 43
+Failed
+Checking 25 + 1*19 = 44
+Failed
+Start with 26
+Increment by 1
+Checking 26 + 1*1 = 27
+Failed
+Checking 26 + 1*2 = 28
+Failed
+Checking 26 + 1*3 = 29
+Checking 26 + 2*3 = 32
+Checking 26 + 3*3 = 35
+Failed
+Checking 26 + 1*4 = 30
+Failed
+Checking 26 + 1*5 = 31
+Failed
+Checking 26 + 1*6 = 32
+Checking 26 + 2*6 = 38
+Failed
+Checking 26 + 1*7 = 33
+Failed
+Checking 26 + 1*8 = 34
+Checking 26 + 2*8 = 42
+Failed
+Checking 26 + 1*9 = 35
+Failed
+Checking 26 + 1*10 = 36
+Checking 26 + 2*10 = 46
+Failed
+Checking 26 + 1*11 = 37
+Checking 26 + 2*11 = 48
+Failed
+Checking 26 + 1*12 = 38
+Failed
+Checking 26 + 1*13 = 39
+Failed
+Checking 26 + 1*14 = 40
+Checking 26 + 2*14 = 54
+Failed
+Checking 26 + 1*15 = 41
+Checking 26 + 2*15 = 56
+Failed
+Checking 26 + 1*16 = 42
+Failed
+Checking 26 + 1*17 = 43
+Failed
+Checking 26 + 1*18 = 44
+Failed
+Checking 26 + 1*19 = 45
+Checking 26 + 2*19 = 64
+Failed
+Start with 27
+Start with 28
+Start with 29
+Increment by 1
+Checking 29 + 1*1 = 30
+Failed
+Checking 29 + 1*2 = 31
+Failed
+Checking 29 + 1*3 = 32
+Checking 29 + 2*3 = 35
+Failed
+Checking 29 + 1*4 = 33
+Failed
+Checking 29 + 1*5 = 34
+Checking 29 + 2*5 = 39
+Failed
+Checking 29 + 1*6 = 35
+Failed
+Checking 29 + 1*7 = 36
+Checking 29 + 2*7 = 43
+Failed
+Checking 29 + 1*8 = 37
+Checking 29 + 2*8 = 45
+Checking 29 + 3*8 = 53
+Failed
+Checking 29 + 1*9 = 38
+Failed
+Checking 29 + 1*10 = 39
+Failed
+Checking 29 + 1*11 = 40
+Checking 29 + 2*11 = 51
+Failed
+Checking 29 + 1*12 = 41
+Checking 29 + 2*12 = 53
+Failed
+Checking 29 + 1*13 = 42
+Failed
+Checking 29 + 1*14 = 43
+Failed
+Checking 29 + 1*15 = 44
+Failed
+Checking 29 + 1*16 = 45
+Checking 29 + 2*16 = 61
+Checking 29 + 3*16 = 77
+Failed
+Checking 29 + 1*17 = 46
+Failed
+Checking 29 + 1*18 = 47
+Failed
+Checking 29 + 1*19 = 48
+Failed
+Start with 30
+Start with 31
+Start with 32
+Increment by 1
+Checking 32 + 1*1 = 33
+Failed
+Checking 32 + 1*2 = 34
+Checking 32 + 2*2 = 36
+Checking 32 + 3*2 = 38
+Failed
+Checking 32 + 1*3 = 35
+Failed
+Checking 32 + 1*4 = 36
+Checking 32 + 2*4 = 40
+Checking 32 + 3*4 = 44
+Failed
+Checking 32 + 1*5 = 37
+Checking 32 + 2*5 = 42
+Failed
+Checking 32 + 1*6 = 38
+Failed
+Checking 32 + 1*7 = 39
+Failed
+Checking 32 + 1*8 = 40
+Checking 32 + 2*8 = 48
+Failed
+Checking 32 + 1*9 = 41
+Checking 32 + 2*9 = 50
+Checking 32 + 3*9 = 59
+Failed
+Checking 32 + 1*10 = 42
+Failed
+Checking 32 + 1*11 = 43
+Failed
+Checking 32 + 1*12 = 44
+Failed
+Checking 32 + 1*13 = 45
+Checking 32 + 2*13 = 58
+Failed
+Checking 32 + 1*14 = 46
+Failed
+Checking 32 + 1*15 = 47
+Failed
+Checking 32 + 1*16 = 48
+Failed
+Checking 32 + 1*17 = 49
+Failed
+Checking 32 + 1*18 = 50
+Checking 32 + 2*18 = 68
+Failed
+Checking 32 + 1*19 = 51
+Failed
+Start with 33
+Start with 34
+Increment by 1
+Checking 34 + 1*1 = 35
+Failed
+Checking 34 + 1*2 = 36
+Checking 34 + 2*2 = 38
+Failed
+Checking 34 + 1*3 = 37
+Checking 34 + 2*3 = 40
+Checking 34 + 3*3 = 43
+Failed
+Checking 34 + 1*4 = 38
+Failed
+Checking 34 + 1*5 = 39
+Failed
+Checking 34 + 1*6 = 40
+Checking 34 + 2*6 = 46
+Failed
+Checking 34 + 1*7 = 41
+Checking 34 + 2*7 = 48
+Failed
+Checking 34 + 1*8 = 42
+Failed
+Checking 34 + 1*9 = 43
+Failed
+Checking 34 + 1*10 = 44
+Failed
+Checking 34 + 1*11 = 45
+Checking 34 + 2*11 = 56
+Failed
+Checking 34 + 1*12 = 46
+Failed
+Checking 34 + 1*13 = 47
+Failed
+Checking 34 + 1*14 = 48
+Failed
+Checking 34 + 1*15 = 49
+Failed
+Checking 34 + 1*16 = 50
+Checking 34 + 2*16 = 66
+Failed
+Checking 34 + 1*17 = 51
+Failed
+Checking 34 + 1*18 = 52
+Checking 34 + 2*18 = 70
+Failed
+Checking 34 + 1*19 = 53
+Failed
+Start with 35
+Start with 36
+Increment by 1
+Checking 36 + 1*1 = 37
+Checking 36 + 2*1 = 38
+Failed
+Checking 36 + 1*2 = 38
+Failed
+Checking 36 + 1*3 = 39
+Failed
+Checking 36 + 1*4 = 40
+Checking 36 + 2*4 = 44
+Failed
+Checking 36 + 1*5 = 41
+Checking 36 + 2*5 = 46
+Failed
+Checking 36 + 1*6 = 42
+Failed
+Checking 36 + 1*7 = 43
+Failed
+Checking 36 + 1*8 = 44
+Failed
+Checking 36 + 1*9 = 45
+Checking 36 + 2*9 = 54
+Failed
+Checking 36 + 1*10 = 46
+Failed
+Checking 36 + 1*11 = 47
+Failed
+Checking 36 + 1*12 = 48
+Failed
+Checking 36 + 1*13 = 49
+Failed
+Checking 36 + 1*14 = 50
+Checking 36 + 2*14 = 64
+Failed
+Checking 36 + 1*15 = 51
+Failed
+Checking 36 + 1*16 = 52
+Checking 36 + 2*16 = 68
+Failed
+Checking 36 + 1*17 = 53
+Failed
+Checking 36 + 1*18 = 54
+Failed
+Checking 36 + 1*19 = 55
+Failed
+Start with 37
+Increment by 1
+Checking 37 + 1*1 = 38
+Failed
+Checking 37 + 1*2 = 39
+Failed
+Checking 37 + 1*3 = 40
+Checking 37 + 2*3 = 43
+Failed
+Checking 37 + 1*4 = 41
+Checking 37 + 2*4 = 45
+Checking 37 + 3*4 = 49
+Failed
+Checking 37 + 1*5 = 42
+Failed
+Checking 37 + 1*6 = 43
+Failed
+Checking 37 + 1*7 = 44
+Failed
+Checking 37 + 1*8 = 45
+Checking 37 + 2*8 = 53
+Failed
+Checking 37 + 1*9 = 46
+Failed
+Checking 37 + 1*10 = 47
+Failed
+Checking 37 + 1*11 = 48
+Failed
+Checking 37 + 1*12 = 49
+Failed
+Checking 37 + 1*13 = 50
+Checking 37 + 2*13 = 63
+Failed
+Checking 37 + 1*14 = 51
+Failed
+Checking 37 + 1*15 = 52
+Checking 37 + 2*15 = 67
+Failed
+Checking 37 + 1*16 = 53
+Failed
+Checking 37 + 1*17 = 54
+Failed
+Checking 37 + 1*18 = 55
+Failed
+Checking 37 + 1*19 = 56
+Failed
+Start with 38
+Start with 39
+Start with 40
+Increment by 1
+Checking 40 + 1*1 = 41
+Checking 40 + 2*1 = 42
+Failed
+Checking 40 + 1*2 = 42
+Failed
+Checking 40 + 1*3 = 43
+Failed
+Checking 40 + 1*4 = 44
+Failed
+Checking 40 + 1*5 = 45
+Checking 40 + 2*5 = 50
+Checking 40 + 3*5 = 55
+Failed
+Checking 40 + 1*6 = 46
+Failed
+Checking 40 + 1*7 = 47
+Failed
+Checking 40 + 1*8 = 48
+Failed
+Checking 40 + 1*9 = 49
+Failed
+Checking 40 + 1*10 = 50
+Checking 40 + 2*10 = 60
+Failed
+Checking 40 + 1*11 = 51
+Failed
+Checking 40 + 1*12 = 52
+Checking 40 + 2*12 = 64
+Failed
+Checking 40 + 1*13 = 53
+Failed
+Checking 40 + 1*14 = 54
+Failed
+Checking 40 + 1*15 = 55
+Failed
+Checking 40 + 1*16 = 56
+Failed
+Checking 40 + 1*17 = 57
+Failed
+Checking 40 + 1*18 = 58
+Failed
+Checking 40 + 1*19 = 59
+Failed
+Start with 41
+Increment by 1
+Checking 41 + 1*1 = 42
+Failed
+Checking 41 + 1*2 = 43
+Failed
+Checking 41 + 1*3 = 44
+Failed
+Checking 41 + 1*4 = 45
+Checking 41 + 2*4 = 49
+Failed
+Checking 41 + 1*5 = 46
+Failed
+Checking 41 + 1*6 = 47
+Failed
+Checking 41 + 1*7 = 48
+Failed
+Checking 41 + 1*8 = 49
+Failed
+Checking 41 + 1*9 = 50
+Checking 41 + 2*9 = 59
+Failed
+Checking 41 + 1*10 = 51
+Failed
+Checking 41 + 1*11 = 52
+Checking 41 + 2*11 = 63
+Failed
+Checking 41 + 1*12 = 53
+Failed
+Checking 41 + 1*13 = 54
+Failed
+Checking 41 + 1*14 = 55
+Failed
+Checking 41 + 1*15 = 56
+Failed
+Checking 41 + 1*16 = 57
+Failed
+Checking 41 + 1*17 = 58
+Failed
+Checking 41 + 1*18 = 59
+Failed
+Checking 41 + 1*19 = 60
+Failed
+Start with 42
+Start with 43
+Start with 44
+Start with 45
+Increment by 1
+Checking 45 + 1*1 = 46
+Failed
+Checking 45 + 1*2 = 47
+Failed
+Checking 45 + 1*3 = 48
+Failed
+Checking 45 + 1*4 = 49
+Failed
+Checking 45 + 1*5 = 50
+Checking 45 + 2*5 = 55
+Failed
+Checking 45 + 1*6 = 51
+Failed
+Checking 45 + 1*7 = 52
+Checking 45 + 2*7 = 59
+Failed
+Checking 45 + 1*8 = 53
+Failed
+Checking 45 + 1*9 = 54
+Failed
+Checking 45 + 1*10 = 55
+Failed
+Checking 45 + 1*11 = 56
+Failed
+Checking 45 + 1*12 = 57
+Failed
+Checking 45 + 1*13 = 58
+Failed
+Checking 45 + 1*14 = 59
+Failed
+Checking 45 + 1*15 = 60
+Failed
+Checking 45 + 1*16 = 61
+Checking 45 + 2*16 = 77
+Failed
+Checking 45 + 1*17 = 62
+Failed
+Checking 45 + 1*18 = 63
+Failed
+Checking 45 + 1*19 = 64
+Failed
+Start with 46
+Start with 47
+Start with 48
+Start with 49
+Start with 50
+Increment by 1
+Checking 50 + 1*1 = 51
+Failed
+Checking 50 + 1*2 = 52
+Checking 50 + 2*2 = 54
+Failed
+Checking 50 + 1*3 = 53
+Failed
+Checking 50 + 1*4 = 54
+Failed
+Checking 50 + 1*5 = 55
+Failed
+Checking 50 + 1*6 = 56
+Failed
+Checking 50 + 1*7 = 57
+Failed
+Checking 50 + 1*8 = 58
+Failed
+Checking 50 + 1*9 = 59
+Failed
+Checking 50 + 1*10 = 60
+Failed
+Checking 50 + 1*11 = 61
+Checking 50 + 2*11 = 72
+Checking 50 + 3*11 = 83
+Failed
+Checking 50 + 1*12 = 62
+Failed
+Checking 50 + 1*13 = 63
+Failed
+Checking 50 + 1*14 = 64
+Failed
+Checking 50 + 1*15 = 65
+Failed
+Checking 50 + 1*16 = 66
+Failed
+Checking 50 + 1*17 = 67
+Failed
+Checking 50 + 1*18 = 68
+Failed
+Checking 50 + 1*19 = 69
+Failed
+Start with 51
+Start with 52
+Increment by 1
+Checking 52 + 1*1 = 53
+Failed
+Checking 52 + 1*2 = 54
+Failed
+Checking 52 + 1*3 = 55
+Failed
+Checking 52 + 1*4 = 56
+Failed
+Checking 52 + 1*5 = 57
+Failed
+Checking 52 + 1*6 = 58
+Failed
+Checking 52 + 1*7 = 59
+Failed
+Checking 52 + 1*8 = 60
+Failed
+Checking 52 + 1*9 = 61
+Checking 52 + 2*9 = 70
+Failed
+Checking 52 + 1*10 = 62
+Failed
+Checking 52 + 1*11 = 63
+Failed
+Checking 52 + 1*12 = 64
+Failed
+Checking 52 + 1*13 = 65
+Failed
+Checking 52 + 1*14 = 66
+Failed
+Checking 52 + 1*15 = 67
+Failed
+Checking 52 + 1*16 = 68
+Failed
+Checking 52 + 1*17 = 69
+Failed
+Checking 52 + 1*18 = 70
+Failed
+Checking 52 + 1*19 = 71
+Failed
+Start with 53
+Start with 54
+Start with 55
+Start with 56
+Start with 57
+Start with 58
+Start with 59
+Start with 60
+Start with 61
+Increment by 1
+Checking 61 + 1*1 = 62
+Failed
+Checking 61 + 1*2 = 63
+Failed
+Checking 61 + 1*3 = 64
+Failed
+Checking 61 + 1*4 = 65
+Failed
+Checking 61 + 1*5 = 66
+Failed
+Checking 61 + 1*6 = 67
+Failed
+Checking 61 + 1*7 = 68
+Failed
+Checking 61 + 1*8 = 69
+Failed
+Checking 61 + 1*9 = 70
+Failed
+Checking 61 + 1*10 = 71
+Failed
+Checking 61 + 1*11 = 72
+Checking 61 + 2*11 = 83
+Failed
+Checking 61 + 1*12 = 73
+Failed
+Checking 61 + 1*13 = 74
+Failed
+Checking 61 + 1*14 = 75
+Failed
+Checking 61 + 1*15 = 76
+Failed
+Checking 61 + 1*16 = 77
+Failed
+Checking 61 + 1*17 = 78
+Failed
+Checking 61 + 1*18 = 79
+Failed
+Checking 61 + 1*19 = 80
+Failed
+Start with 62
+Start with 63
+Start with 64
+Start with 65
+Start with 66
+Start with 67
+Start with 68
+Start with 69
+Start with 70
+Start with 71
+Start with 72
+Increment by 1
+Checking 72 + 1*1 = 73
+Failed
+Checking 72 + 1*2 = 74
+Failed
+Checking 72 + 1*3 = 75
+Failed
+Checking 72 + 1*4 = 76
+Failed
+Checking 72 + 1*5 = 77
+Failed
+Checking 72 + 1*6 = 78
+Failed
+Checking 72 + 1*7 = 79
+Failed
+Checking 72 + 1*8 = 80
+Failed
+Checking 72 + 1*9 = 81
+Failed
+Checking 72 + 1*10 = 82
+Failed
+Checking 72 + 1*11 = 83
+Failed
+Checking 72 + 1*12 = 84
+Failed
+Checking 72 + 1*13 = 85
+Failed
+Checking 72 + 1*14 = 86
+Failed
+Checking 72 + 1*15 = 87
+Failed
+Checking 72 + 1*16 = 88
+Failed
+Checking 72 + 1*17 = 89
+Failed
+Checking 72 + 1*18 = 90
+Failed
+Checking 72 + 1*19 = 91
+Failed
+Start with 73
+Start with 74
+Start with 75
+Start with 76
+Start with 77
+Start with 78
+Start with 79
+Start with 80
+Start with 81
+Start with 82
+Start with 83
+Start with 84
+Start with 85
+Start with 86
+Start with 87
+Start with 88
+Start with 89
+Start with 90
+Start with 91
+Start with 92
+Start with 93
+Start with 94
+Start with 95
+Start with 96
+Start with 97

@@ -1,0 +1,57 @@
+
+
+typedef struct _graph *Graph;
+typedef struct _link *Link;
+
+struct _graph{
+	Link* l;
+	int nV;
+};
+
+struct _link{
+	int data;
+	Link n;
+};
+
+Link newNode(int data){
+	Link l = malloc(sizeof(struct _link));
+	l->next = NULL;
+	l->data = data;
+	return l;
+}
+
+Graph newGraph(int nv){
+	Graph g = malloc(sizeof(struct _graph));
+	int i = 0;
+	g->l = malloc(sizeof(struct _link)*nv);
+	g->nV = nv;
+	for( i = 0; i < nV; i++){
+		g->l[i] = malloc(sizeof(struct _link));
+	}
+	return g;
+}
+
+
+//adds edge from v1 to v2
+void addEdge(Graph g, int v1, int v2) {
+	Link l = newNode(v2);
+	l->next = g->l[v1];
+	g->l[v1] = l;
+}
+
+void showGraph(g){
+	int i;
+	Link l;
+	for( i =0; i < g->nV; i++) {
+		printf("[%d] links to: ", i);
+		for( l = g->l[i]; l != NULL; l = l->next) {
+			printf("[%d], ", l->data);
+		}
+		printf("X\n");
+	}
+}
+
+int main(){
+
+
+

@@ -1,0 +1,41 @@
+
+import math 
+def getPrimes(b):
+	m  = math.floor(math.sqrt(b)) 
+	l = [0]*m
+	for i in range(m):
+		if l[i]: continue
+		j = 2*i;
+		while j < m:
+			print(i)
+			l[j] = 1
+			j += i
+			break
+	return [i for i in range(m) if l[i] == 0]
+
+
+def isPrime(a, p):
+	i, r = 0, 0
+	while p[i] < range(math.floor(math.sqrt(a))):
+		if a%p[i] == 0: 
+			r = 1
+			break;
+		i+=1
+	return r
+
+
+
+
+def main():
+
+	f = open("pprime.in")
+	l = list(map(int,f.read().split()))
+	a, b = l[0], l[1] 
+	p = getPrimes(b)
+	print(p)
+
+
+if __name__ == "__main__":
+	main()
+
+
