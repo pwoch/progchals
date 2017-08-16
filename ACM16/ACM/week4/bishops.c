@@ -47,8 +47,6 @@ int main(int argc,char* argv[]) {
 
 
     for (i = 0; i < 2*TILES + 1; i++) {
- 	    printf("Number of Bishops with difference %d is %d\n", i - 999, differenceCoord[i]);
-            printf("Number of Bishops with sum  %d is %d\n", i + 2, sumCoord[i]);
  	    
             if( differenceCoord[i] >= 2){
                         
@@ -62,21 +60,16 @@ int main(int argc,char* argv[]) {
 
     int n = 1000;
     long long combination = combinatorial(n, 2);
-    printf("%d choose 2 is equal to: %lld\n", n, combination );
     printf("%lld\n", result);
  	
     return EXIT_SUCCESS;
 }
 
 int factorial(int n) {
-
 	if( n <= 1){
-		
 		return 1;
 	} else {
-		
 		return n*factorial(n-1);
-		
 	}
 }
 
@@ -95,16 +88,7 @@ long long combinatorial(int n, int k) {
             i--;
             counter++;
         }
-        /*
-	int result = 1;
-	int factN = factorial(n);
-	
-	int factNK = factorial(n-k);
-	int factK = factorial(k);
-	result = (factNK*factK);
-        result = factN/result;
-	*/
-	return result;
+      	return result;
 }
 
 	
